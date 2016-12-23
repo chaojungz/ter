@@ -21,6 +21,8 @@ The goal of this project is to first record images from a driving car and then u
          - The same model trained exclusively on my own data. Unfortunately, this model does not steer the car through track 1 without leaving the track.
      - model_UdacityData.json, model_UdacityData.h5:
          - The same model trained exclusively on Udacity’s sample data. Unfortunately, this model does not steer the car through track 1 without leaving the track.
+     - training_data_preprocessed_visualization.png
+         - Visualization of loaded data and pre-processed images. 
 
 #Training data 
 I recorded training data. However, the trained model was not able to drive by itself yet. Therefore, I extended the recorded training data with Udacity’s sample data.
