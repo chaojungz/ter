@@ -6,7 +6,7 @@ The goal of this project is to first record images from a driving car and then u
 
 #YouTube
 The recorded video of the final model can be viewed on YouTube under the following URL:
-https://youtu.be/Gc8ty4_X8tQ
+https://youtu.be/ifxIFyX5x3M
 
 #List of submitted files:
 - README.md 
