@@ -4,6 +4,10 @@
 #Introduction 
 The goal of this project is to first record images from a driving car and then use those images to train a model that allows the car to drive by itself. Therefore, three types of images are taken: left side of the car, center view, right side of the car. The model is based on Keras.
 
+#YouTube
+The recorded video of the final model can be viewed on YouTube under the following URL:
+https://youtu.be/Gc8ty4_X8tQ
+
 #List of submitted files:
 - README.md 
      - Explains the structure of your network and training approach. While we recommend using English for good practice, writing in any language is acceptable (reviewers will translate). There is no minimum word count so long as there are complete descriptions of the problems and the strategies. See the rubric for more details about the expectations.
