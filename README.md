@@ -1,8 +1,5 @@
-#Project 3: Behavioral Cloning
-#README.md 
-
-#Behavioral Cloning
-#Udacity Self-Driving Car Nanodegree, Term 1, Project 3
+#Udacity Self-Driving Car Nanodegree
+#Term 1, Project 3: Behavioral Cloning 
 
 #Introduction 
 The goal of this project is to first record images from a driving car and then use those images to train a model that allows the car to drive by itself. Therefore, three types of images are taken: left side of the car, center view, right side of the car. The model is based on Keras.
