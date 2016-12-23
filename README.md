@@ -44,7 +44,7 @@ I load the data from the file driving_log.csv which was is created when recordin
 The loaded data is stored in the variables X and y. 
 
 To reduce biasing noise in the images, I only loaded an extract of each image which shows the track and the boundaries of the track. Specifically, I focused on the y-axis pixel coordinates 50 to 150. I did not cut the x-axis and kept all three color channels. I think that reducing color channels might work well in this simulator because there is only the gray track and red/white or yellow markings. However, I did not want to do it because (a) NVIDIA also did not recommend it in their paper and (b) I think that color in general would be an important feature (e.g., further lines, traffic signs etc.). Thus, the loaded image (without slicing) was 100 x 320 x 3 pixels. 
-Furthermore, I reduced the size of the image because 160 x 320 would have been too many pixels for my laptop’s memory ( 8 GB).
+Furthermore, I reduced the size of the image because 160 x 320 would have been too many pixels for my laptop’s memory (8 GB).
 
 Specifically, I tried three different image sizes. In general, my goal was to keep the largest possible image size that fits in my memory when loading around 15000 images. Therefore, I first reduced the size by 1-100%/2 = 50%. This created images of 50x160x3 pixels. Second, I reduced the size by 1-100%/5 = 80%. This created images of 20x64x3 pixels. Third, I reduced the size by 1-100%/10 = 90%. This created images of 10x32x3pixels. 
 
