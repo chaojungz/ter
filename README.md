@@ -11,7 +11,7 @@ https://youtu.be/ifxIFyX5x3M
 #List of submitted files:
 - README.md 
      - Explains the structure of your network and training approach. While we recommend using English for good practice, writing in any language is acceptable (reviewers will translate). There is no minimum word count so long as there are complete descriptions of the problems and the strategies. See the rubric for more details about the expectations.
-- behavioral_cloning_0.0.1.ipynb 
+- behavioral_cloning_0.0.1.2.ipynb, behavioral_cloning_0.0.1.2.html
      - The script used to create and train the model.
 - model.json
      - The model architecture. 
